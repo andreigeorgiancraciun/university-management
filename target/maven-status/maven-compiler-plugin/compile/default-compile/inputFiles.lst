@@ -1,0 +1,17 @@
+/Users/acraciun/Desktop/task01/src/main/java/university/management/model/Student.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/controllers/LoginController.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/controllers/HomePageController.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/services/CoursesService.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/repositories/CoursesRepository.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/repositories/ProgramsRepository.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/model/Course.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/model/Program.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/controllers/RegistrationController.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/Application.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/repositories/LearnerProfilesRepository.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/services/ProgramService.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/repositories/StudentsRepository.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/services/StudentsService.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/model/LearnerProfile.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/services/LearnerProfileService.java
+/Users/acraciun/Desktop/task01/src/main/java/university/management/controllers/StudentsController.java
