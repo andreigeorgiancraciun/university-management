@@ -13,7 +13,7 @@ import java.util.Set;
 @Table(name = "Students")
 @Getter
 @Setter
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 public class Student {
 
     @Id
@@ -42,7 +42,8 @@ public class Student {
     @JoinColumn(name = "program_id")
     private Program program;
 
-    @ManyToMany(mappedBy = "enrolledStudents", cascade = CascadeType.ALL)
+    @ManyToMany(mappedBy = "enrolledStudents",
+            cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH})
     private Set<Course> enrolledIn;
 
     public Student(String firstName,

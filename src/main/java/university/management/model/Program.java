@@ -20,10 +20,10 @@ public class Program {
     private Long programId;
 
     @Column(nullable = false)
-    private final int requiredYearsToGraduation = 4 ;
+    private static final int requiredYearsToGraduation = 4 ;
 
     @Column(nullable = false)
-    private final int requiredCreditsToGraduation = 200;
+    private static final int requiredCreditsToGraduation = 200;
 
     @Column(nullable = false, updatable = false)
     private String fieldOfStudy;
